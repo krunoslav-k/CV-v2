@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #EBEBEB;
+    height: 100%;
+}
+
+.ribbon {
+    background-color: #4A69BF;
+    width: 16%;
+    height: 110vh;
+    margin: -10vh 0 0 10%;
+    box-shadow: 7px 0 9px 0px rgba(140, 140, 140, 0.5), -7px 0 9px 0 rgba(140, 140, 140, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-ribbon {
+    margin-top: 10vh;
+    height: 30vh;
+}
+
+.central-ribbon {
+    background-color: whitesmoke;
+    height: 40vh;
+}
+
+.lower-ribbon {
+    height: 30vh;
+}
+
