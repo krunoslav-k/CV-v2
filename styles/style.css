@@ -19,9 +19,10 @@ body {
     width: 16%;
     height: 110vh;
     margin: -10vh 0 0 10%;
-    box-shadow: 7px 0 9px 0px rgba(140, 140, 140, 0.5), -7px 0 9px 0 rgba(140, 140, 140, 0.5);
+    box-shadow: 7px 0 9px 0px rgba(180, 180, 180, 0.44), -7px 0 9px 0 rgba(180, 180, 180, 0.44);
     display: flex;
     flex-direction: column;
+    position: fixed;
 }
 
 .upper-ribbon {
@@ -34,8 +35,8 @@ body {
 }
 
 .logo {
-    height: 55%;
-    margin: 8%;
+    height: 60%;
+    margin: 0;
 }
 
 .name {
@@ -81,3 +82,14 @@ nav ul li {
     height: 30vh;
 }
 
+.about {
+    margin: 3em 0 0 30%;
+}
+
+.about p {
+    width: 90%;
+}
+
+h1 {
+    margin: 0 0 1em 0.6em;
+}
