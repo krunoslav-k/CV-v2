@@ -14,6 +14,8 @@ body {
     height: 100%;
 }
 
+/* RIBBON */
+
 .ribbon {
     background-color: #4A69BF;
     width: 16%;
@@ -41,8 +43,8 @@ body {
 
 .name {
     color: whitesmoke;
-    font-size: 1.4em;
-    margin: 0.5em;
+    font-size: 1.2em;
+    margin: 1em;
 }
 
 .central-ribbon {
@@ -76,20 +78,77 @@ nav ul li {
     color: #4A69BF;
 }
 
-
-
 .lower-ribbon {
     height: 30vh;
 }
 
-.about {
+/* SECTIONS */
+
+.section {
     margin: 3em 0 0 30%;
 }
 
+/* ABOUT SECTION */
+
 .about p {
-    width: 90%;
+    width: 80%;
 }
 
-h1 {
+.section h1 {
     margin: 0 0 1em 0.6em;
 }
+
+.basic-info {
+    margin: 2em 0 0 0;
+}
+
+.basic-info-list {
+    list-style: none;
+}
+
+.basic-info-list li {
+    margin: 0 0 0.6em 0;
+}
+
+.basic-info-list li img {
+    height: 1em;
+    margin-right: 0.6em;
+    margin-bottom: -0.1em;
+}
+
+/* EDUCATION SECTION */
+
+.degree-cards-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.degree-card {
+    width: 50%;
+    margin: 0 2em 0 0;
+    border-radius: 0.88em;
+    background-color: whitesmoke;
+}
+.degree-card:first-of-type {
+    margin-left: 1em;
+}
+
+.degree-card p {
+    margin: 0.8em 0.8em 0.8em 0.8em;
+}
+
+.degree-name {
+    font-size: 1.12em;
+    font-weight: 600;
+}
+
+.graduation {
+    margin: -0.6em 0 0 1.1em !important;
+    font-size: 0.9em;
+    color: rgb(30, 30, 30);
+}
+
+/* SKILLS SECTION */
+
+
